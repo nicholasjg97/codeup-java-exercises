@@ -17,7 +17,7 @@ public class MyTherapist {
         } else if (userInput.equals("terrible")) {
             System.out.println("Sorry to hear that! Just take some deep breaths and go outside and think of happy times!");
         } else {
-            System.out.println("That is too complicated for me, you will have to pay for extra time for that one.");
+            System.out.println("No matter how you feel, remember to keep striving for better!");
         }
 
 
