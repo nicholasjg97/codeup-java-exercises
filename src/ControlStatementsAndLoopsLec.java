@@ -44,22 +44,41 @@ public class ControlStatementsAndLoopsLec {
 //        System.out.println("The variable y is dangerously close to the max value for short type variables, which is " + Short.MAX_VALUE);
 //    }
 
-    String customerChoice = "strawberry";
+//    String customerChoice = "strawberry";
 
-    switch (customerChoice) {
-        case "vanilla":
-            System.out.println("One vanilla coming right up");
-            break;
-        case "chocolate":
-            System.out.println("chocolate coming right up");
-            break;
-        case "strawberry":
-            System.out.println("strawberry coming right up");
-            break;
-        default:
-            System.out.println("We don't have that");
-            break;
-    }
+//    switch (customerChoice) {
+//        case "vanilla":
+//            System.out.println("One vanilla coming right up");
+//            break;
+//        case "chocolate":
+//            System.out.println("chocolate coming right up");
+//            break;
+//        case "strawberry":
+//            System.out.println("strawberry coming right up");
+//            break;
+//        default:
+//            System.out.println("We don't have that");
+//            break;
+//    }
+
+//        int i = 1;
+//        System.out.println("The loop hasn't started yet. The value of i is " + i);
+//        while (i < 10){
+//            System.out.println("Now I'm in the loop. i has not incremented yet and its value is " + i);
+//            i = i + 1;
+//            System.out.println("I'm still in the loop. i has incremented now and its value is " + i);
+//        }
+//        System.out.println("This is out the far end of the loop. The conditional has tested false. The value of i is what it last incremented to. See? " + i);
+
+//        int i = 1;
+//        System.out.println("The loop hasn't started yet. The value of i is " + i);
+//        do {
+//            System.out.println("Now I'm in the loop. i has not incremented yet and its value is " + i);
+//            i = i + 1;
+//            System.out.println("I'm still in the loop. i has incremented now and its value is " + i);
+//        } while (i<10);
+//        System.out.println("This is out the far end of the loop. The conditional has tested false. The value of i is what it last incremented to. See? " + i);
+
 
 
 
