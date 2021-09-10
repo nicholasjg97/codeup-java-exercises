@@ -83,6 +83,29 @@ public class ControlFlowExercises {
 //            }
 //        }
 
+//        Letter Grades
+
+        Scanner sc = new Scanner(System.in);
+        String userInput = "";
+        do {
+
+            System.out.println("Give us a numerical grade from 0 to 100");
+            int userGrade = sc.nextInt();
+            if (userGrade <= 100 && userGrade >= 88) {
+                System.out.println("That's an A");
+            } else if (userGrade <= 87 && userGrade >= 80) {
+                System.out.println("That's a B");
+            } else if (userGrade <= 79 && userGrade >= 67) {
+                System.out.println("That's a C");
+            } else if (userGrade <= 66 && userGrade >= 60) {
+                System.out.println("That's a D");
+            } else {
+                System.out.println("That's an F");
+            }
+            System.out.println("Would you like to continue? yes/no");
+            userInput = sc.next();
+
+        } while (userInput.equals("yes"));
 
 
 
