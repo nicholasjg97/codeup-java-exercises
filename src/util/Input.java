@@ -105,6 +105,7 @@ public class Input {
 //            System.out.println("Error: Input is not a double!");
 //            return getDouble();
 //        }
+
     }
 
     // When an instance of this object is created, the scanner property should be set to a new instance of the Scanner class.
