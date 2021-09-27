@@ -1,6 +1,6 @@
 package warmups;
 
-public class Movie {
+public class Movie implements Entertains{
 
     private String name;
     private String director;
@@ -27,6 +27,10 @@ public class Movie {
 
     public void setDirector(String director) {
         this.director = director;
+    }
+
+    public String audienceReaction() {
+        return "oooooooh " + name + " was so awesome.";
     }
 
 
