@@ -24,8 +24,19 @@ public class JavaDrills {
         for (int integer : b) {
             sumSecond += integer;
         }
-
         return sumFirst - sumSecond;
+    }
+
+//    Create a public static method, `flipInnerCase`, that takes in a string and returns the string with the case of all letters reversed EXCEPT for the first and last letters. Assume the input will be three or more characters long.
+
+    public static String flipInnerCase (String input) {
+
+        int stringLength = input.length();
+        String letter1 = input.substring (0,1);
+        String lastletter = input.substring ((stringLength-1),(stringLength));
+        String newWord =letter1.toUpperCase() + input.substring(1, input.length() - 1) + lastletter.toUpperCase();
+
+        return newWord;
 
     }
 
